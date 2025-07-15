@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "fabric-mod-example",
+    "version": "${version}",
+    "name": "AI Chat Mod",
+    "description": "A Minecraft mod that allows you to chat with DeepSeek AI in-game!",
+    "authors": [
+        "User"
+    ],
+    "contact": {
+        "homepage": "https://example.com/",
+        "sources": "https://github.com/example/example"
+    },
+    "license": "MIT",
+    "icon": "assets/fabric-mod-example/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.example.ExampleMod"
+        ]
+    },
+    "mixins": [
+        "fabric-mod-example.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.21",
+        "minecraft": "~1.20.1",
+        "java": ">=17",
+        "fabric-api": "*"
+    }
+}

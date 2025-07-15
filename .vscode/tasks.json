@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "构建 Fabric Mod",
+            "command": "./gradlew",
+            "args": ["build"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "运行客户端",
+            "command": "./gradlew",
+            "args": ["runClient"],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "运行服务器",
+            "command": "./gradlew",
+            "args": ["runServer"],
+            "group": "build",
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "生成源码",
+            "command": "./gradlew",
+            "args": ["genSources"],
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}

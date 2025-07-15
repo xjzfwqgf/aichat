@@ -1,0 +1,13 @@
+{
+    "item.fabric-mod-example.example_item": "Example Item",
+    "itemgroup.fabric-mod-example": "AI Chat Mod",
+    "command.aichat.setkey.success": "API Key has been set!",
+    "command.aichat.clear.success": "Your conversation history cleared!",
+    "command.aichat.personality.success": "AI personality updated!",
+    "command.aichat.personality.reset": "AI personality reset to default!",
+    "command.aichat.no_key": "Please set API Key first: /aichat setkey <your-key>",
+    "command.aichat.player_only": "This command can only be used by players!",
+    "command.aichat.sending": "Sending...",
+    "command.aichat.response": "AI Response: %s",
+    "command.aichat.error": "Send failed: %s"
+}
